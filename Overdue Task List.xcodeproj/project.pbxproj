@@ -14,13 +14,17 @@
 		39985233193201BB00264174 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 39985232193201BB00264174 /* main.m */; };
 		39985237193201BB00264174 /* MSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 39985236193201BB00264174 /* MSAppDelegate.m */; };
 		3998523A193201BB00264174 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39985238193201BB00264174 /* Main.storyboard */; };
-		3998523D193201BB00264174 /* MSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3998523C193201BB00264174 /* MSViewController.m */; };
 		3998523F193201BB00264174 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3998523E193201BB00264174 /* Images.xcassets */; };
 		39985246193201BB00264174 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39985245193201BB00264174 /* XCTest.framework */; };
 		39985247193201BB00264174 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39985226193201BB00264174 /* Foundation.framework */; };
 		39985248193201BB00264174 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3998522A193201BB00264174 /* UIKit.framework */; };
 		39985250193201BB00264174 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3998524E193201BB00264174 /* InfoPlist.strings */; };
 		39985252193201BB00264174 /* Overdue_Task_ListTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 39985251193201BB00264174 /* Overdue_Task_ListTests.m */; };
+		3998525D1932035900264174 /* MSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3998525C1932035900264174 /* MSViewController.m */; };
+		39985263193204B800264174 /* MSAddTaskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39985262193204B800264174 /* MSAddTaskViewController.m */; };
+		399852661932074500264174 /* MSDetailTaskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 399852651932074500264174 /* MSDetailTaskViewController.m */; };
+		399852691932149B00264174 /* MSEditTaskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 399852681932149B00264174 /* MSEditTaskViewController.m */; };
+		3998526F1932306700264174 /* MSTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 3998526E1932306700264174 /* MSTask.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +49,22 @@
 		39985235193201BB00264174 /* MSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSAppDelegate.h; sourceTree = "<group>"; };
 		39985236193201BB00264174 /* MSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSAppDelegate.m; sourceTree = "<group>"; };
 		39985239193201BB00264174 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		3998523B193201BB00264174 /* MSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSViewController.h; sourceTree = "<group>"; };
-		3998523C193201BB00264174 /* MSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSViewController.m; sourceTree = "<group>"; };
 		3998523E193201BB00264174 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		39985244193201BB00264174 /* Overdue Task ListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Overdue Task ListTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		39985245193201BB00264174 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		3998524D193201BB00264174 /* Overdue Task ListTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Overdue Task ListTests-Info.plist"; sourceTree = "<group>"; };
 		3998524F193201BB00264174 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		39985251193201BB00264174 /* Overdue_Task_ListTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Overdue_Task_ListTests.m; sourceTree = "<group>"; };
+		3998525B1932035900264174 /* MSViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSViewController.h; sourceTree = "<group>"; };
+		3998525C1932035900264174 /* MSViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSViewController.m; sourceTree = "<group>"; };
+		39985261193204B800264174 /* MSAddTaskViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MSAddTaskViewController.h; path = "Overdue Task List/MSAddTaskViewController.h"; sourceTree = "<group>"; };
+		39985262193204B800264174 /* MSAddTaskViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MSAddTaskViewController.m; path = "Overdue Task List/MSAddTaskViewController.m"; sourceTree = "<group>"; };
+		399852641932074500264174 /* MSDetailTaskViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MSDetailTaskViewController.h; path = "Overdue Task List/MSDetailTaskViewController.h"; sourceTree = "<group>"; };
+		399852651932074500264174 /* MSDetailTaskViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MSDetailTaskViewController.m; path = "Overdue Task List/MSDetailTaskViewController.m"; sourceTree = "<group>"; };
+		399852671932149B00264174 /* MSEditTaskViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MSEditTaskViewController.h; path = "Overdue Task List/MSEditTaskViewController.h"; sourceTree = "<group>"; };
+		399852681932149B00264174 /* MSEditTaskViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MSEditTaskViewController.m; path = "Overdue Task List/MSEditTaskViewController.m"; sourceTree = "<group>"; };
+		3998526D1932306700264174 /* MSTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSTask.h; sourceTree = "<group>"; };
+		3998526E1932306700264174 /* MSTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSTask.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,12 +124,13 @@
 		3998522C193201BB00264174 /* Overdue Task List */ = {
 			isa = PBXGroup;
 			children = (
+				3998526C19322FD200264174 /* Controller */,
+				3998526B19322FCB00264174 /* View */,
+				3998526A19322FBA00264174 /* Model */,
 				39985235193201BB00264174 /* MSAppDelegate.h */,
 				39985236193201BB00264174 /* MSAppDelegate.m */,
-				39985238193201BB00264174 /* Main.storyboard */,
-				3998523B193201BB00264174 /* MSViewController.h */,
-				3998523C193201BB00264174 /* MSViewController.m */,
 				3998523E193201BB00264174 /* Images.xcassets */,
+				39985238193201BB00264174 /* Main.storyboard */,
 				3998522D193201BB00264174 /* Supporting Files */,
 			);
 			path = "Overdue Task List";
@@ -150,6 +163,40 @@
 				3998524E193201BB00264174 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3998526A19322FBA00264174 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3998526D1932306700264174 /* MSTask.h */,
+				3998526E1932306700264174 /* MSTask.m */,
+			);
+			name = Model;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		3998526B19322FCB00264174 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		3998526C19322FD200264174 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3998525B1932035900264174 /* MSViewController.h */,
+				3998525C1932035900264174 /* MSViewController.m */,
+				39985261193204B800264174 /* MSAddTaskViewController.h */,
+				39985262193204B800264174 /* MSAddTaskViewController.m */,
+				399852641932074500264174 /* MSDetailTaskViewController.h */,
+				399852651932074500264174 /* MSDetailTaskViewController.m */,
+				399852671932149B00264174 /* MSEditTaskViewController.h */,
+				399852681932149B00264174 /* MSEditTaskViewController.m */,
+			);
+			name = Controller;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,9 +297,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				399852661932074500264174 /* MSDetailTaskViewController.m in Sources */,
+				399852691932149B00264174 /* MSEditTaskViewController.m in Sources */,
 				39985237193201BB00264174 /* MSAppDelegate.m in Sources */,
-				3998523D193201BB00264174 /* MSViewController.m in Sources */,
+				3998526F1932306700264174 /* MSTask.m in Sources */,
+				3998525D1932035900264174 /* MSViewController.m in Sources */,
 				39985233193201BB00264174 /* main.m in Sources */,
+				39985263193204B800264174 /* MSAddTaskViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
