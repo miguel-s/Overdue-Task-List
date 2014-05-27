@@ -55,16 +55,16 @@
 		3998524D193201BB00264174 /* Overdue Task ListTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Overdue Task ListTests-Info.plist"; sourceTree = "<group>"; };
 		3998524F193201BB00264174 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		39985251193201BB00264174 /* Overdue_Task_ListTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Overdue_Task_ListTests.m; sourceTree = "<group>"; };
-		3998525B1932035900264174 /* MSViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSViewController.h; sourceTree = "<group>"; };
-		3998525C1932035900264174 /* MSViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSViewController.m; sourceTree = "<group>"; };
+		3998525B1932035900264174 /* MSViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MSViewController.h; path = "Overdue Task List/MSViewController.h"; sourceTree = "<group>"; };
+		3998525C1932035900264174 /* MSViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MSViewController.m; path = "Overdue Task List/MSViewController.m"; sourceTree = "<group>"; };
 		39985261193204B800264174 /* MSAddTaskViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MSAddTaskViewController.h; path = "Overdue Task List/MSAddTaskViewController.h"; sourceTree = "<group>"; };
 		39985262193204B800264174 /* MSAddTaskViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MSAddTaskViewController.m; path = "Overdue Task List/MSAddTaskViewController.m"; sourceTree = "<group>"; };
 		399852641932074500264174 /* MSDetailTaskViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MSDetailTaskViewController.h; path = "Overdue Task List/MSDetailTaskViewController.h"; sourceTree = "<group>"; };
 		399852651932074500264174 /* MSDetailTaskViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MSDetailTaskViewController.m; path = "Overdue Task List/MSDetailTaskViewController.m"; sourceTree = "<group>"; };
 		399852671932149B00264174 /* MSEditTaskViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MSEditTaskViewController.h; path = "Overdue Task List/MSEditTaskViewController.h"; sourceTree = "<group>"; };
 		399852681932149B00264174 /* MSEditTaskViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MSEditTaskViewController.m; path = "Overdue Task List/MSEditTaskViewController.m"; sourceTree = "<group>"; };
-		3998526D1932306700264174 /* MSTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSTask.h; sourceTree = "<group>"; };
-		3998526E1932306700264174 /* MSTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSTask.m; sourceTree = "<group>"; };
+		3998526D1932306700264174 /* MSTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MSTask.h; path = "Overdue Task List/MSTask.h"; sourceTree = "<group>"; };
+		3998526E1932306700264174 /* MSTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MSTask.m; path = "Overdue Task List/MSTask.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -508,6 +508,7 @@
 				39985257193201BC00264174 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		39985258193201BC00264174 /* Build configuration list for PBXNativeTarget "Overdue Task ListTests" */ = {
 			isa = XCConfigurationList;
@@ -516,6 +517,7 @@
 				3998525A193201BC00264174 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
